@@ -1,0 +1,18 @@
+{SURVEY_START}
+ID: MY_SURVEY_001
+TITLE: Customer Feedback Survey 2026
+
+[Q1]
+TYPE: SINGLE_CHOICE
+TEXT: How satisfied are you with our service?
+OPTIONS:
+1. Very Satisfied
+2. Somewhat Satisfied
+3. Not Satisfied
+
+[Q2]
+TYPE: OPEN_ENDED
+TEXT: Please tell us why you chose that rating.
+CONDITION: IF Q1 == 3
+
+{SURVEY_END}
