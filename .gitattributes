@@ -1,2 +1,1 @@
-text.txt linguist-detectable=true
-text2.txt linguist-detectable=true
+*.txt linguist-detectable=true
