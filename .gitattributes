@@ -1,1 +1,4 @@
-*.txt linguist-detectable=true
+README.md linguist-documentation=true
+CLAUDE.md linguist-documentation=true
+docs/** linguist-documentation=true
+CONTRIBUTING.md linguist-documentation=true
